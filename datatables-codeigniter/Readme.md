@@ -52,6 +52,7 @@ class Ex_datatables extends CI_Controller {
 ```
 
 ## Javascript
+Include ``jquery.dataTables.js``, ``bootstrap-datatables.js``, ``datatables.js``
 
 ```
 var url_ajax = "<?php echo $baseurl."api/".$module."_ajax" ; ?>";
@@ -97,7 +98,7 @@ $(function () {
 
 
 ## View 
-
+Include ``jquery.dataTables.css``
 ```
 <table class="table table-bordered table-striped mg-t datatables" id="refresh">
                                         <thead>
